@@ -14,7 +14,6 @@ class App < Sinatra::Base
     @small = params[:small]
     @power = params[:power]
     @center = params[:center]
-    @id = params[:submit]
     erb :team
   end
 
